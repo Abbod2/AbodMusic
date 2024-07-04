@@ -19,17 +19,17 @@ from random import  choice, randint
 async def huhh(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://graph.org/file/d26a24c11bd88d3bd305a.jpg",
-        caption = f"""<b>𝘄𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 . .<b>\n<a href="https://t.me/sourcerona"> 𝘀𝗼𝘂𝗿𝗰𝗲 𝗹𝗶𝘀𝗮</a></b>""",
+        caption = f"""<b>𝘄𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 . .<b>\n<a href="https://t.me/v_x_z1"> 𝘀𝗼𝘂𝗿𝗰𝗲 </a></b>""",
 reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "• 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 𝗹𝗶𝘀𝗮", url=f"https://t.me/onlywissam"),
+                        "• 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 ", url=f"https://t.me/SSl4r"),
                 ],[
                     
                 
                     InlineKeyboardButton(
-                        "𝘀𝗼𝘂𝗿𝗰𝗲 𝗹𝗶𝘀𝗮", url=f"https://t.me/sourcerona"),         
+                        "𝘀𝗼𝘂𝗿𝗰𝗲 ", url=f"https://t.me/v_x_z1"),         
                 ],
 
             ]
@@ -39,20 +39,3 @@ reply_markup=InlineKeyboardMarkup(
     )
 
 
-@app.on_message(filters.command("","."))
-def vgdg(client,message):
-        message.reply_text(
-            f"""✧ Welcome Baby,
-ᴅᴇᴠᴇʟᴏᴘᴇʀ -› Wissam♪ @onlywissam
-ᴄʜᴀɴɴᴇʟ -› 𝘀𝗼𝘂𝗿𝗰𝗲 𝗹𝗶𝘀𝗮 @sourcerona""", 
-            reply_markup=InlineKeyboardMarkup(
-                [
-                    [
-                        InlineKeyboardButton(
-                            "تحديثات ليزا 🍻", url=f"t.me/sourcerona")
-                    ]
-                ]
-            ),
-            disable_web_page_preview=True
-
-        )
